@@ -1,0 +1,38 @@
+
+/* GENERAL */
+
+    /* Header */
+
+    header{
+        background-color: #AF9181;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header img{
+        width: 80px;
+        height: auto;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .menu li {
+        margin: 3%;
+        list-style: none;
+        font-size: 30px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: white;
+    }
+
+/* HOME */
+
+/* CONTACTO */
+
+/* NOSOTROS */
+
+/* RECETA-DETALLE  */
