@@ -121,8 +121,25 @@ nav{
     width: 100%;
     border-radius: 3%;
     margin-top:100px;
+    box-shadow: 2px 2px 4px rgba(3, 2, 1, 0.3);
 
+}
+.titulo-descripcion{
+    background-color: #ceb5a7;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+    box-shadow: 2px 2px 4px rgba(3, 2, 1, 0.3);
 
+}
+.titulo-descripcion .special__ratings, h1{
+    margin-top: 30px;
+}
+.ingredientes-receta{
+    margin-top: 10%;
+    background-color: #ceb5a7;
+    box-shadow: 2px 2px 4px rgba(3, 2, 1, 0.3);
+    
 }
 
     /* Header */
@@ -280,6 +297,7 @@ text-align: center;
         text-align: center;
      }
      h1{
+        
         font-size: 3rem;
         
      }
@@ -290,10 +308,12 @@ text-align: center;
    .ingredientes-receta{
     
     align-items: stretch;
+    margin-bottom: 20px;
 }
 
 .ingredientes-receta {
     display: flex;
+   
 }
 
 .ingredientes,
@@ -304,5 +324,6 @@ text-align: center;
 
 .ingredientes {
     margin-right: 20px; 
+    border-right: 1px solid #000;
 }
 }
