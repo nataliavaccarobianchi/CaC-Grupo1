@@ -1,35 +1,74 @@
-
 /* GENERAL */
+body {
+  color: #4f2e19;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0%;
+}
+/* Header */
 
-    /* Header */
+header {
+  background-color: #af9181;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+}
 
-    header{
-        background-color: #AF9181;
-        padding: 2%;
-        display: flex;
-        justify-content: center;
-    }
+header img {
+  width: 80px;
+  height: auto;
+}
 
-    header img{
-        width: 80px;
-        height: auto;
-    }
+.menu {
+  display: flex;
+}
 
-    .menu{
-        display: flex;
-    }
+.menu li {
+  margin: 3%;
+  list-style: none;
+  font-size: 30px;
+}
+.menu a:hover {
+    color: #d7ba96;
+    transition: color 0.3s;
+  }
 
-    .menu li {
-        margin: 3%;
-        list-style: none;
-        font-size: 30px;
-    }
-    .menu a{
-        text-decoration: none;
-        color: white;
-    }
+.menu a {
+  text-decoration: none;
+  color: white;
+}
 
 /* HOME */
+
+body {
+  background-color: #d7ba96;
+  color: #4f2e19;
+}
+
+.home--sec{
+    padding: 3%;
+}
+.home--recetas {
+  display: flex;
+  justify-content: space-around;
+}
+.home--recetas img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  margin-left: 2%;
+  border: 10px solid #4f2e19;
+  border-radius: 5%;
+}
+
+.home--recetas img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+.home--recetas p{
+    font-size: 20px;
+  }
 
 /* CONTACTO */
 
