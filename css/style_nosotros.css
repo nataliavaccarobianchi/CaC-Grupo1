@@ -1,0 +1,180 @@
+/* NOSOTROS */
+
+
+
+/* Nosotros */
+
+/* Mobile */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0px;
+    width: 100vw;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #d7ba98;
+    margin: 0px;
+}
+
+.benef-icons {
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+}
+
+.benef-icons div {
+    max-width: 250px;
+    /* padding: 0px 10px; */
+}
+
+#foto-alumnos1 {
+    /* width: 100vw ; */
+    max-width: 770px;
+}
+
+
+
+.gral-style {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0px 20px;
+}
+
+.texto-foto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    column-width: auto;
+    margin: auto;
+}
+
+#foto-alumnos1 {
+    /* padding: 25px 25px; */
+    width: 95vw;
+    max-width: 450px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#foto-alumnos1:hover {
+    scale: 1.1;
+}
+
+#texto-presentacion {
+    line-height: 1.6;
+}
+
+p,
+h2,
+h5,
+div {
+    color: #6b3f30;
+    text-align: center;
+}
+
+h4,
+h5 {
+    letter-spacing: 4px;
+    text-decoration: underline;
+}
+
+h5 {
+    font-style: italic;
+}
+
+.beneficios,
+.razones {
+    display: block;
+    line-height: 1.6;
+    justify-content: center;
+}
+
+
+.razones h5 {
+    text-shadow: 300px;
+}
+
+
+
+.back-top {
+    text-align: center;
+}
+
+.footer {
+    background-color: #AF9181;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 12px;
+    margin: 0px;
+}
+
+.footer p {
+    color: white;
+
+}
+
+@media only screen and (width > 768px) {
+
+    html {
+        padding: 0px;
+        width: 100vw;
+        margin: 0px;
+        overflow-x: hidden;
+    }
+
+    header {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+
+
+    /* .nav_links {
+        position: static;
+        padding: 0;
+        flex-direction: row;
+        background-color: transparent;
+        transform: none;
+    }
+    
+    .nav_links a {
+        color: #4d2e1c;
+    }
+    
+    .nav_links a:hover {
+        color: white;
+    } */
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    ol,
+    ul {
+        font-size: 1rem;
+    }
+}
