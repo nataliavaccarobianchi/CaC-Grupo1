@@ -4,7 +4,6 @@
 
 /* Nosotros */
 
-/* Mobile */
 
 * {
     box-sizing: border-box;
@@ -22,24 +21,46 @@ body {
     margin: 0px;
 }
 
-.benef-icons {
+/* Mobile - Menú Hamburguesa */
+
+.navbar {
     display: flex;
-    margin-bottom: 25px;
-    justify-content: space-evenly;
-    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-.benef-icons div {
-    max-width: 250px;
-    /* padding: 0px 10px; */
+.nav-list {
+    /* list-style: none; */
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
+
+.nav-list li {
+    margin-left: 20px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+/* # # # Fin Menú Hamburguesa # # # */
+
 
 #foto-alumnos1 {
     /* width: 100vw ; */
     max-width: 770px;
 }
-
-
 
 .gral-style {
     font-family: roboto, Arial, Helvetica, sans-serif;
@@ -91,6 +112,24 @@ h5 {
     font-style: italic;
 }
 
+.benef-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    padding: 0px 10px;
+}
+
+.benef-icons div {
+    flex: 1 1 calc(25% - 10px); /* 4 columnas en pantallas grandes */
+    max-width: 150px;
+    padding: 20px;
+    text-align: center;
+    /* border: 1px solid #ddd; */
+    /* padding: 0px 10px; */
+}
+
 .beneficios,
 .razones {
     display: block;
@@ -98,12 +137,9 @@ h5 {
     justify-content: center;
 }
 
-
 .razones h5 {
     text-shadow: 300px;
 }
-
-
 
 .back-top {
     text-align: center;
@@ -121,8 +157,55 @@ h5 {
 
 .footer p {
     color: white;
-
 }
+
+.footer div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 130px 10px;
+}
+
+.footer-icons-style {
+    text-decoration: none;
+    color: white;
+}
+
+/* mediaquery Menú Hamburguesa Mobile */
+
+@media only screen and (max-width: 768px) {
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #333;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 0;
+    }
+
+    .nav-list a {
+        padding: 15px;
+        border-top: 1px solid #444;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .benef-icons div {
+        flex: 1 1 calc(50% - 10px); /* 2 columnas en pantallas medianas */
+    }
+}
+
+/* FIN mediaquery Menú Hamburguesa Mobile */
 
 @media only screen and (width > 768px) {
 
@@ -142,28 +225,9 @@ h5 {
         padding: 0px;
         margin: 0px;
     }
-
-
-    /* .nav_links {
-        position: static;
-        padding: 0;
-        flex-direction: row;
-        background-color: transparent;
-        transform: none;
-    }
-    
-    .nav_links a {
-        color: #4d2e1c;
-    }
-    
-    .nav_links a:hover {
-        color: white;
-    } */
 }
 
 @media only screen and (min-width: 1200px) {
-
-
     h2 {
         font-size: 2rem;
         text-align: center;
@@ -177,4 +241,10 @@ h5 {
     ul {
         font-size: 1rem;
     }
+
+    /* .footer div {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 490px 10px;
+    } */
 }

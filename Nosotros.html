@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EGA - Nosotros</title>
-    <link rel="stylesheet" href="./css/style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="./css//style_nosotros.css">
-</head>
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EGA - Nosotros</title>
+        <link rel="stylesheet" href="./css/style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./css//style_nosotros.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 
 <header id="header">
+    <!--menú hamburguesa-->
     <img src="./img/logo.png" alt="Logo">
-    <nav>
-        <ul class="menu">
+    <nav class="navbar">
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="menu nav-list">
             <li><a href="./Index.html">Home</a></li>
             <li><a href="./Nosotros.html">Nosotros </a></li>
             <li><a href="./Contacto.html">Contacto</a></li>
@@ -145,13 +152,28 @@
         </div>
         <br><br>
     </main>
+    <!--script menú hamburguesa-->
+    <script src="script-menu.js"></script>
 </body>
 
 <footer class="footer">
     <p>
-        Grupo 1: Candela Puerta, Helen Calanche, Natalia Vaccaro Bianchi, Leo García. <br>&copy; 2024 Todos los derechos
-        reservados. [Podemos tener íconos de redes sociales aquí]
+        Grupo 1: Candela Puerta, Helen Calanche, Natalia Vaccaro Bianchi, Leo García. <br>&copy; 2024 Todos los derechos reservados. 
     </p>
+    <div>
+        <a class="footer-icons-style" href="#">
+            <i class="fa fa-instagram" style="font-size:24px"></i>
+        </a>
+                
+        <a class="footer-icons-style" href="#">
+            <i class="fa fa-facebook" style="font-size:24px"></i>
+        </a>
+        
+        <a class="footer-icons-style" href="#">
+            <i class="fa fa-linkedin" style="font-size:24px"></i>
+        </a>
+    </div>
+    
 </footer>
 
 </html>
