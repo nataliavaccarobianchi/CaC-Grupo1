@@ -6,6 +6,7 @@ body {
   font-style: normal;
   padding: 0%;
 }
+
 /* Header */
 
 header {
@@ -29,10 +30,11 @@ header img {
   list-style: none;
   font-size: 30px;
 }
+
 .menu a:hover {
-    color: #d7ba96;
-    transition: color 0.3s;
-  }
+  color: #d7ba96;
+  transition: color 0.3s;
+}
 
 .menu a {
   text-decoration: none;
@@ -46,13 +48,15 @@ body {
   color: #4f2e19;
 }
 
-.home--sec{
-    padding: 3%;
+.home--sec {
+  padding: 3%;
 }
+
 .home--recetas {
   display: flex;
   justify-content: space-around;
 }
+
 .home--recetas img {
   height: 300px;
   width: 200px;
@@ -66,11 +70,35 @@ body {
   transform: scale(1.1);
   transition: transform 0.2s;
 }
-.home--recetas p{
-    font-size: 20px;
-  }
+
+.home--recetas p {
+  font-size: 20px;
+}
 
 /* CONTACTO */
+.img--formulario {
+  max-width: 300px;
+  width: 100%;
+  height: 300px;
+}
+.contenedorImgForm{
+  width: 100%;
+  height: 100%;
+}
+.error {
+  border: 1px solid red !important;
+}
+.errorName{
+  border: 1px solid red !important;
+}
+.fieldRadioValidate{
+  color: red !important;
+  display: none;
+}
+.fieldSelectValidate{
+  color: red !important;
+  display: none;
+}
 
 /* NOSOTROS */
 
