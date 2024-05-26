@@ -1,7 +1,4 @@
 /* NOSOTROS */
-
-
-
 /* Nosotros */
 
 
@@ -23,16 +20,16 @@ body {
 
 /* Mobile - Menú Hamburguesa */
 
-.navbar {
+/* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-}
+} */
 
-.nav-list {
-    /* list-style: none; */
-    display: flex;
+/* .nav-list { */
+    /* list-style: none;  */
+    /* display: flex;
     margin: 0;
     padding: 0;
 }
@@ -52,7 +49,7 @@ body {
     width: 25px;
     background-color: white;
     margin: 4px 0;
-}
+} */
 
 /* # # # Fin Menú Hamburguesa # # # */
 
@@ -173,7 +170,7 @@ h5 {
 /* mediaquery Menú Hamburguesa Mobile */
 
 @media only screen and (max-width: 768px) {
-    .nav-list {
+    /* .nav-list {
         display: none;
         flex-direction: column;
         width: 100%;
@@ -198,7 +195,7 @@ h5 {
 
     .menu-toggle {
         display: flex;
-    }
+    } */
 
     .benef-icons div {
         flex: 1 1 calc(50% - 10px); /* 2 columnas en pantallas medianas */
