@@ -5,30 +5,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>EGA - Nosotros</title>
-        <link rel="stylesheet" href="./css/style.css">
-        
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
         <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="./css//style_nosotros.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" href="./css/style.css"> -->
+        <link rel="stylesheet" href="./css//style_nosotros.css">
     </head>
 
 <header id="header">
-    <!--menú hamburguesa-->
-    <img src="./img/logo.png" alt="Logo">
-    <nav class="navbar">
-        <div class="menu-toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+    <nav>
+        <div class="nav_header">
+            <div class="logo nav_logo">
+                <img src="./img/logo.png" alt="Logo"/>
+            </div>
+            <div class="nav_menu_boton" id="menu-boton">
+                <span><i class="ri-menu-line"></i></span>
+            </div>
         </div>
-        <ul class="menu nav-list">
+        <ul class="nav_links" id="nav-links">
             <li><a href="./Index.html">Home</a></li>
-            <li><a href="./Nosotros.html">Nosotros </a></li>
+            <li><a href="./Nosotros.html">Nosotros</a></li>
             <li><a href="./Contacto.html">Contacto</a></li>
         </ul>
     </nav>
@@ -38,14 +39,13 @@
     <main class="gral-style">
         <section class="presentacion1">
             <h2 style="text-decoration: underline;">Quiénes somos?</h2>
-
             <div class="texto-foto">
-                <div>
+                <div class="foto">
                     <a href="./img/nosotros1-image-alumnos1.jpg" target="_blank">
                         <img id="foto-alumnos1" src="./img/nosotros1-image-alumnos1.jpg" alt="foto-alumnos1"><br>
                     </a>
                 </div>
-                <div>
+                <div class="texto">
                     <h4> <i>"EN EGA SOMOS DISTINTOS"</i></h4>
                     <p id="texto-presentacion">Todos somos y hacemos del EGA un lugar distinto <br>para construir
                         nuestro futuro. <br>Aprendé con el mejor
@@ -61,7 +61,7 @@
         
         <section class="beneficios">
             <div>
-                <h2 style="text-decoration: underline; text-align: center;">Beneficios</h2><br>
+                <h2 style="text-decoration: underline; text-align: center;">Beneficios</h2>
             </div>
             <div class="benef-icons">
                 <div>
@@ -118,7 +118,7 @@
                     </p>
                 </div>
             </div>
-        </section><br><br>
+        </section><br>
         <section class="razones">
             <h2 style="text-decoration: underline;">Razones para formarte con nosotros</h2>
             <div>
@@ -153,7 +153,7 @@
         <br><br>
     </main>
     <!--script menú hamburguesa-->
-    <script src="script-menu.js"></script>
+    <script src="./main.js"></script>
 </body>
 
 <footer class="footer">
@@ -165,7 +165,7 @@
             <i class="fa fa-instagram" style="font-size:24px"></i>
         </a>
                 
-        <a class="footer-icons-style" href="#">
+        <a class="footer-icons-style medio" href="#">
             <i class="fa fa-facebook" style="font-size:24px"></i>
         </a>
         
