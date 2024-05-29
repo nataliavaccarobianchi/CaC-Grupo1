@@ -100,6 +100,55 @@ body {
   display: none;
 }
 
-/* NOSOTROS */
+/*Responsive*/
 
-/* RECETA-DETALLE  */
+
+
+
+@media only screen and (max-width: 768px) {
+  header img {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .home--sec {
+    padding: 20px;
+  }
+
+  .home--recetas img {
+    width: 100%;
+    height: auto;
+  }
+
+  .home--recetas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home--recetas p {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .home--sec {
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home--recetas {
+    display: flex;
+    flex-wrap: wrap;
+  }
